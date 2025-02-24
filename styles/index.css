@@ -106,11 +106,18 @@ body {
 }
 
 .hero_image {
+  padding: 20px;
+  /* width: max-content;
+  height: max-content; */
   border-radius: 16px;
   background: #23232a;
   box-shadow: -8px 8px 16px #1d1d22, 8px -8px 16px #292932;
 }
 
+.hero_image img {
+  width: 17.5rem;
+  /* border-radius: 16px; */
+}
 .grid-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr); /* 3 columns */
@@ -149,6 +156,7 @@ body {
 }
 
 .grid-item img {
+  width: 300px;
   border-radius: 5px;
 }
 
